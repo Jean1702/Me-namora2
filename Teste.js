@@ -1,7 +1,7 @@
 const No = document.getElementById("no"); 
 const altura = 450; 
 const largura = 400 ;
-const musga = document.getElementById("musica");
+const musgar = document.getElementById("musica");
 const Si = document.getElementById("Si");
 const h1 = document.getElementById("Texto");
 const posicaoh1 = h1.getBoundingClientRect();
@@ -68,8 +68,8 @@ No.addEventListener("click", function () {
 })
 
 window.addEventListener('DOMContentLoaded', function() {
-    if (musga) {
-        musga.play().then(() => {
+    if (musgar) {
+        musgar.play().then(() => {
             console.log('Reprodução automática iniciada com sucesso.');
         }).catch((error) => {
             console.error('Reprodução automática foi bloqueada.', error);
